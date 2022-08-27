@@ -1,0 +1,5 @@
+node_modules
+.idea
+firebase-adminsdk.json
+allow-list-admin.json
+admin-signer.json

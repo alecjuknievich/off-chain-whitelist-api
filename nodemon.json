@@ -1,0 +1,22 @@
+{
+  "exec": "npm start",
+  "restartable": "rs",
+  "verbose": false,
+  "watch": [
+    "src/",
+    "bin/"
+  ],
+  "ignore": [
+    ".git",
+    "node_modules",
+    "logs",
+    "tests",
+    "src/data",
+    "scripts"
+  ],
+  "env": {
+    "NODE_ENV": "local",
+    "NODE_PORT": 3000
+  },
+  "ext": "ts"
+}
